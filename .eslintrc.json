@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/essential",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018,
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  }
+}
